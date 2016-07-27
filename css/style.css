@@ -1,0 +1,21 @@
+img{
+  width: 100%;
+  position: absolute;
+}
+.cent{
+ margin: 20% 95% 80% 5%;
+}
+.cent button{
+  background-color: #d9edf7;
+}
+.cent input{
+  color : blue;
+}
+.cent IMG{
+  width: 100px;
+   height: 100px;
+   margin: -24% 35%;
+}
+#resp{
+  margin-top: 80%;
+}
