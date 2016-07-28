@@ -7,27 +7,29 @@
      <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <img src="http://wp.enciclomedios.com/wp-content/uploads/2013/05/wikipedia.jpg" alt="" />
-    <div class="row">
-     <div class="col-lg-5 col-xs-5 cent">
-         <IMG SRC="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/New-Bouncywikilogo.gif/220px-New-Bouncywikilogo.gif"></IMG>
-       <div class="input-group">
-         <input id="text" type="text" class="form-control" placeholder="Search for..." value="">
-         <span class="input-group-btn">
-           <button id="Go" class="btn btn-default" type="button" >Go!</button>
-         </span>
+    <div class="body">
+      <img id="wiki-img" src="http://wp.enciclomedios.com/wp-content/uploads/2013/05/wikipedia.jpg" alt="" />
+      <div class="container">
+        <div class="row">
+         <div class="col-xs-5 cent">
+             <div class="input-group">
+               <input id="text" type="text" class="form-control" placeholder="Search for..." value="">
+               <span class="input-group-btn">
+                 <button id="Go" class="btn btn-default" type="button" >Go!</button>
+               </span>
+             </div><!-- /input-group -->
 
-       </div><!-- /input-group -->
-       <div>
-        <ul id="resp">
+         </div><!-- /.col-lg-6 -->
+       </div><!-- /.row -->
+       <div class="row">
+         <div class="col-xs-12">
+           <ul id="resp">
 
-        </ul>
+           </ul>
+         </div>
        </div>
-
-     </div><!-- /.col-lg-6 -->
-
-   </div><!-- /.row -->
-
+      </div>
+    </div>
 
    <script src="prod.js"></script>
   </body>
